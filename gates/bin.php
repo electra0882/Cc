@@ -61,7 +61,7 @@ $msg = urlencode(
 ➜ 𝙏𝙔𝙋𝙀: $type 
 
 $header
-𝗕𝗢𝗧 𝗕𝗬 - Krishna "
+𝗕𝗢𝗧 𝗕𝗬 - ElectraOp "
 );
   binn:
  reply_to($chatId,$msg,$messageId);
