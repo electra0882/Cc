@@ -497,7 +497,7 @@ if(strpos($result2, "Security code is incorrect"))
 
 $rslt = "
 CHARGED : <code> $lista </code>
-𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Itsz_Krishna_Babess ✅
+𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Sabka_Papa_Electra0p ✅
  ";
 goto hits;
 
@@ -507,7 +507,7 @@ elseif(strpos($pin, "incorrect_cvc"))
 
 $rslt = "
 CHARGED : <code> $lista </code>
-𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Itsz_Krishna_Babess ✅
+𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Sabka_Papa_Electra0p ✅
  ";
   goto hits;
 }
@@ -516,7 +516,7 @@ CHARGED : <code> $lista </code>
 
 $rslt = "
 CHARGED : <code> $lista </code>
-𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Itsz_Krishna_Babess ✅
+𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Sabka_Papa_Electra0p ✅
  ";
   goto hits;
 }
@@ -537,14 +537,14 @@ CVV : <code> $lista </code>
 elseif(strpos($result2, "Thank You for your donation")) {
     $rslt = "
 CHARGED : <code> $lista </code>
-𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Itsz_Krishna_Babess ✅
+𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Sabka_Papa_Electra0p ✅
  ";
   goto hits;
 }
 elseif(strpos($result2, "Thank you")) {
    $rslt = "
 CHARGED : <code> $lista </code>
-𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Itsz_Krishna_Babess ✅
+𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Sabka_Papa_Electra0p ✅
  ";
   goto hits;
 }
