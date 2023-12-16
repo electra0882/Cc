@@ -11,7 +11,7 @@ if(empty($lista))
 
 ➜ 𝙉𝙊 𝙎𝙆 𝙁𝙊𝙐𝙉𝘿 !
 
-𝘽𝙊𝙏 𝘽𝙔 Krishna
+𝘽𝙊𝙏 𝘽𝙔 ElectraOp
 
 "),$messageId);
   exit();
@@ -22,7 +22,7 @@ $msgsnd = reply_to($chatId,urlencode("
 
 ¢нє¢кιηg ѕк....
 
-𝘽𝙊𝙏 𝘽𝙔 - Krishna 
+𝘽𝙊𝙏 𝘽𝙔 - ElectraOp 
 
 "),$messageId);
    $respon = json_decode($msgsnd, TRUE);
@@ -160,7 +160,7 @@ edit_message($chatId,urlencode("
 
 ").$skbkp.urlencode("
 
-𝘽𝙊𝙏 𝘽𝙔 - Krishna 
+𝘽𝙊𝙏 𝘽𝙔 - ElectraOp 
 "),$message_id_1); 
 
 }
@@ -186,7 +186,7 @@ fwrite($file,$userId." ".$credit."\n");
   {
     reply_to($chatId,urlencode("
 ➜ 𝗨𝗦𝗘𝗥 𝗦𝗧𝗔𝗧𝗨𝗦: 𝗙𝗥𝗘𝗘 
-➜ 𝗔𝗦𝗞 𝗢𝗪𝗡𝗘𝗥 𝗧𝗢 𝗕𝗨𝗬 @Itsz_Krish_Babess 
+➜ 𝗔𝗦𝗞 𝗢𝗪𝗡𝗘𝗥 𝗧𝗢 𝗕𝗨𝗬  @Sabka_Papa_Electra0p
 "),$messageId);
   }
 }
