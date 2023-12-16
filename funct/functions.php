@@ -1,5 +1,5 @@
 <?php  
-$botToken = "6301277350:AAHxhoc36p1YAWZolWVI1f4Vc7YM3aSBAFs"; // Enter ur bot token
+$botToken = "6813345299:AAF7xi_Cjrmv_aipQPv8F5qDZFJU8-hWFqc"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 function GetStr($string, $start, $end){
 $str = explode($start, $string);
