@@ -28,7 +28,7 @@ else
   // sendChatAction($chatId,"type");
 reply_to($chatId,urlencode("
 ➜ 𝗨𝗦𝗘𝗥 𝗦𝗧𝗔𝗧𝗨𝗦: 𝗙𝗥𝗘𝗘 
-➜ 𝗔𝗦𝗞 𝗢𝗪𝗡𝗘𝗥 𝗧𝗢 𝗕𝗨𝗬 @Itsz_Krish_Babess
+➜ 𝗔𝗦𝗞 𝗢𝗪𝗡𝗘𝗥 𝗧𝗢 𝗕𝗨𝗬 @Sabka_Papa_Electra0p
 "),$messageId);
 exit();
 }
