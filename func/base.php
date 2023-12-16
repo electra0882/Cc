@@ -10,7 +10,7 @@ if ((strpos($message, "/start") === 0)||(strpos($message, "!start") === 0)||(str
 
 𝗨𝗦𝗘 /cmds For Knowing This
 
-𝗕𝗢𝗧 𝗕𝗬 - Krishna
+𝗕𝗢𝗧 𝗕𝗬 - ElectraOp
 ");
   reply_to($chatId,$message,$messageId);
 }
