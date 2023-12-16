@@ -136,7 +136,7 @@ if(empty($id))
 ➜ 𝙏𝙔𝙋𝙀: $type
 
 $header
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
   edit_message($chatId,"$res ",$message_id_1);
   curl_close($ch);
 ob_flush();
@@ -508,7 +508,7 @@ $res  = urlencode("
 ∆ 𝙏𝙔𝙋𝙀: $type 
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
   
 }
 elseif(strpos($pin, "incorrect_cvc")) 
@@ -530,7 +530,7 @@ $res  = urlencode("
 ∆ 𝙏𝙔𝙋𝙀: $type
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
   
 }
   elseif(strpos($pin, "succeeded")) 
@@ -551,7 +551,7 @@ $res  = urlencode("
 ∆ 𝙏𝙔𝙋𝙀: $type
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
   
 }
 elseif(strpos($result2, "insufficient funds")) {
@@ -570,7 +570,7 @@ elseif(strpos($result2, "insufficient funds")) {
 ∆ 𝙏𝙔𝙋𝙀: $type
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
 }
   elseif(strpos($result2, "insufficient_funds")) {
     $res  = urlencode("
@@ -588,7 +588,7 @@ elseif(strpos($result2, "insufficient funds")) {
 ∆ 𝙏𝙔𝙋𝙀: $type
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
   }
 elseif(strpos($result2, "Thank You for your donation")) {
     $res  = urlencode("
@@ -606,7 +606,7 @@ elseif(strpos($result2, "Thank You for your donation")) {
 ∆ 𝙏𝙔𝙋𝙀: $type
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
 }
 elseif(strpos($result2, "Thank you")) {
     $res  = urlencode("
@@ -624,7 +624,7 @@ elseif(strpos($result2, "Thank you")) {
 ∆ 𝙏𝙔𝙋𝙀: $type
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
 }
 else {
     $res  = urlencode("
@@ -642,7 +642,7 @@ else {
 ∆ 𝙏𝙔𝙋𝙀: $type
 
 ᴄʜᴇᴄᴋᴇᴅ ʙʏ : $user
-『 𝗕𝗢𝗧 𝗕𝗬 - Krishna 』");
+『 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 』");
 }
   
 edit_message($chatId,"$res ",$message_id_1);
