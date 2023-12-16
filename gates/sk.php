@@ -47,7 +47,7 @@ $Currency = trim(strip_tags(getStr($stripe,'"currency": "','",')));
 𝗣𝗘𝗡𝗗𝗜𝗡𝗚 𝗕𝗔𝗟𝗔𝗡𝗖𝗘: $pbalance
 𝗖𝗨𝗥𝗥𝗘𝗡𝗖𝗬 : $Currency 
 
-[ 𝗕𝗢𝗧 𝗕𝗬 - Krishna ]
+[ 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp ]
   ");
   sendMessage($chatId,$livmsg,$messageId);
     
@@ -96,7 +96,7 @@ elseif(strpos($stripe1, 'Your account cannot currently make live charges.'))
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : Your account cannot currently make live charges.
 
-[ 𝗕𝗢𝗧 𝗕𝗬 - Krishna ]
+[ 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp ]
 ");
 }
 elseif(strpos($stripe1, 'Expired API Key provided'))
@@ -108,7 +108,7 @@ elseif(strpos($stripe1, 'Expired API Key provided'))
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : Expired API Key provided.
 
-[ 𝗕𝗢𝗧 𝗕𝗬 - Krishna ]
+[ 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp ]
 ");
 }
 elseif(strpos($stripe1, 'The API key provided does not allow requests from your IP address.'))
@@ -120,7 +120,7 @@ elseif(strpos($stripe1, 'The API key provided does not allow requests from your 
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : The API key provided does not allow requests from your IP address.
 
-[ 𝗕𝗢𝗧 𝗕𝗬 - Krishna ]
+[ 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp ]
 ");
 }
 else
@@ -133,7 +133,7 @@ else
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : $skmsg
 
-[ 𝗕𝗢𝗧 𝗕𝗬 - Krishna ]
+[ 𝗕𝗢𝗧 𝗕𝗬 - ElectraOp ]
 ");
 }
 sendMessage($chatId,$skmsg,$messageId);
