@@ -30,7 +30,7 @@ $sss = reply_to($chatId,urlencode(
 
 GENERATING CODES.....
 
-𝗕𝗢𝗧 𝗕𝗬 - Krishna 
+𝗕𝗢𝗧 𝗕𝗬 - ElectraOp 
   "),$messageId);
 $respon = json_decode($sss, TRUE);
 $message_id_1 = $respon['result']['message_id'];
@@ -50,7 +50,7 @@ foreach ($credt as $codes)
 
 $codess
 
-𝗕𝗢𝗧 𝗕𝗬 - Krishna
+𝗕𝗢𝗧 𝗕𝗬 - ElectraOp
 
 "),$message_id_1);
   }
