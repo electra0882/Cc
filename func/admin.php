@@ -15,7 +15,7 @@ if ((strpos($message, "/adm") === 0)||(strpos($message, "!adm") === 0)||(strpos(
 ➥  /acht - ADD PREMIUM CHAT 
 ➥ /code - GENERATE REDEEM CODE 
 
-𝗕𝗢𝗧 𝗕𝗬 - Krishna
+𝗕𝗢𝗧 𝗕𝗬 - ElectraOp
     "),$messageId);
   }
 }
