@@ -21,7 +21,7 @@ if ((strpos($message, "/cmds") === 0)||(strpos($message, "!cmds") === 0)||(strpo
 
 ➥  /adm
 
-𝗕𝗢𝗧 𝗕𝗬 - Krishna 
+𝗕𝗢𝗧 𝗕𝗬 - ElectraOp
 ");
   reply_to($chatId,$cmd,$messageId);
 }
