@@ -38,7 +38,7 @@ sendMessage($chatId,urlencode("
 ➜ 𝗘𝗫𝗣𝗜𝗥𝗬 𝗗𝗔𝗧𝗘 : $exdate
 ➜ 𝗦𝗧𝗔𝗧𝗨𝗦 : 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 ! 
 
-𝗕𝗢𝗧 𝗕𝗬 - Krishna
+𝗕𝗢𝗧 𝗕𝗬 - ElectraOp
 "
 ),$messageId);
 $tgid = clean($tgid);
